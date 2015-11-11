@@ -112,7 +112,7 @@
         */
         .section{
             background-color: rgba(110, 149, 216, 0.67);
-            padding: 6% 0 0 0;
+            padding: 5% 0 0 0;
         }
 
 
@@ -180,6 +180,19 @@
                 <div class="box">
                     <h1>Appartement A</h1>
                     <h2>Binnenkant</h2>
+                    <p>Appartement A is voor 2-4 personen. Prijzen vanaf  € 325 tot € 675
+                        Het is iets dieper dan de straat gelegen, met een groot terras.
+                        </p>
+                        <ul>
+                            <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                            <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        	<li>Slaapkamer met 2 eenpersoonbedden</li>
+                        	<li>Keuken met vaatwasser, magnetron, koffiezetapparaat, waterkoker</li>
+                        	<li>Badkamer met douche en wastafel</li>
+                            <li>Apart toilet</li>
+                            <li>Verder aanwezig: Tuinset, kinderbed, kinderstoel, safe</li>
+                            <li>Prive parkeerplaats</li>
+                        </ul>
                 </div>
             </div>
 
