@@ -91,6 +91,7 @@
             -moz-transition: all 0.7s ease-out;
             -o-transition: all 0.7s ease-out;
             transition: all 0.7s ease-out;
+            border-radius: 5px;
         }
 
         /* Defining each sectino background and styles
@@ -122,6 +123,39 @@
         .section{
             background-color: rgba(110, 149, 216, 0.67);
             padding: 5% 0 0 0;
+        }
+        #section0{
+            background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+            background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+            background: linear-gradient(#4BBFC3,#7BAABE);
+        }
+        #section1{
+            background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
+            background: -webkit-linear-gradient(#7BAABE, #969AC6);
+            background: linear-gradient(#7BAABE,#969AC6);
+        }
+
+        #section2{
+            background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+            background: -webkit-linear-gradient(#969AC6, #636F8F);
+            background: linear-gradient(#969AC6,#636F8F);
+        }
+
+
+        #section3{
+            background: -webkit-gradient(linear, top left, bottom left, from(#636F8F), to(#76c2bd));
+            background: -webkit-linear-gradient(#636F8F, #76c2bd);
+            background: linear-gradient(#636F8F,#76c2bd);
+        }
+        #section4{
+            background: -webkit-gradient(linear, top left, bottom left, from(#76c2bd), to(#01ff70));
+            background: -webkit-linear-gradient(#76c2bd, #01ff70);
+            background: linear-gradient(#76c2bd,#01ff70);
+        }
+        #section5{
+            background: -webkit-gradient(linear, top left, bottom left, from(#01ff70), to(#d81b60));
+            background: -webkit-linear-gradient(#01ff70, #d81b60);
+            background: linear-gradient(#01ff70,#d81b60);
         }
 
 
