@@ -16,15 +16,16 @@
         /* Style for our header texts
         * --------------------------------------- */
         h1{
-            font-size: 5em;
+            font-size: 3em;
             font-family: arial,helvetica;
-            color: #fff;
-            margin:0;
+            color: #fdfdfd;
+            margin: 0 0 18px 0;
             padding:0;
         }
         h2{
             font-size: 2em;
             margin: 0 0 18px 0;
+            color: #f2f2f2;
             font-family: arial,helvetica;
         }
 
@@ -32,6 +33,38 @@
         * --------------------------------------- */
         .section{
             text-align:center;
+            overflow:hidden;
+        }
+        .wrap{
+            width: 1180px;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        .box{
+            text-align: left;
+            color: #808080;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -400px;
+            margin-left: 150px;
+            width: 395px;
+            z-index: 1;
+        }
+        .imgsContainer{
+            display: block;
+            position: absolute;
+            z-index: 1;
+            top: 42%;
+            left: 58%;
+            margin-top: -325px;
+            margin-left: -747px;
+            width: 800px;
+            height: 696px;
         }
 
 
@@ -44,10 +77,16 @@
             background-size: cover;
             background-attachment: fixed;
         }
+        img{
+            -webkit-transition: all 0.7s ease-out;
+            -moz-transition: all 0.7s ease-out;
+            -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+        }
 
         /* Defining each sectino background and styles
         * --------------------------------------- */
-        #section0{
+        /*#section0{
             background-image: url({{url("plugins/fullpage/imgs/bg1.jpg")}});
             padding: 7.5% 0 0 0;
         }
@@ -70,18 +109,15 @@
             background-image: url({{url("plugins/fullpage/imgs/bg5.jpg")}});
             padding: 6% 0 0 0;
         }
+        */
+        .section{
+            background-color: rgba(110, 149, 216, 0.67);
+            padding: 6% 0 0 0;
+        }
 
 
         /*Adding background for the slides
        * --------------------------------------- */
-        #slide1{
-            background-image: url({{url("plugins/fullpage/imgs/bg4.jpg")}});
-            padding: 6% 0 0 0;
-        }
-        #slide2{
-            background-image: url({{url("plugins/fullpage/imgs/bg3.jpg")}});
-            padding: 6% 0 0 0;
-        }
 
 
         #header{
@@ -137,8 +173,16 @@
 
     <div class="section" id="section1">
         <div class="slide" id="slide1">
-            <h1>Appartement A</h1>
-            <h2>Binnenkant</h2>
+            <div class="wrap">
+                <div class="imgsContainer">
+                    <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement A.2/BinnenkantA.jpg")}}">
+                </div>
+                <div class="box">
+                    <h1>Appartement A</h1>
+                    <h2>Binnenkant</h2>
+                </div>
+            </div>
+
         </div>
         <div class="slide" id="slide2">
             <h1>Appartement A</h1>
