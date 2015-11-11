@@ -129,22 +129,6 @@
        * --------------------------------------- */
 
 
-        #header{
-            position:fixed;
-            height: 50px;
-            display:block;
-            width: 100%;
-            background: #333;
-            z-index:9;
-            text-align:center;
-            color: #f2f2f2;
-            padding: 20px 0 0 0;
-        }
-
-        #header{
-            top:0px;
-        }
-
     </style>
 
     <!--[if IE]>
@@ -171,7 +155,6 @@
 
 </head>
 <body>
-<div id="header">Header</div>
 <div id="fullpage">
     <div class="section" id="section0">
         <h1>De Zilte Kust</h1>
