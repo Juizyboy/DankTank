@@ -50,7 +50,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            margin-top: -400px;
+            margin-top: -325px;
             margin-left: 150px;
             width: 395px;
             z-index: 1;
@@ -185,40 +185,90 @@
 
         </div>
         <div class="slide" id="slide2">
-            <h1>Appartement A</h1>
-            <h2>Keuken</h2>
+            <div class="wrap">
+                <div class="imgsContainer">
+                    <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement A.2/KeukenA.jpg")}}">
+                </div>
+                <div class="box">
+                    <h1>Appartement A</h1>
+                    <h2>Keuken</h2>
+                </div>
+            </div>
         </div>
         <div class="slide" id="slide3">
-            <h1>Appartement A</h1>
-            <h2>Uitzicht</h2>
+            <div class="wrap">
+                <div class="imgsContainer">
+                    <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement A.2/UitzichtA.jpg")}}">
+                </div>
+                <div class="box">
+                    <h1>Appartement A</h1>
+                    <h2>Uitzicht</h2>
+                </div>
+            </div>
         </div>
     </div>
     <div class="section" id="section2">
         <div class="slide" id="slide4">
-            <h1>Appartement B</h1>
-            <h2>Binnenkant</h2>
+            <div class="wrap">
+                <div class="imgsContainer">
+                    <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement B.2/BinnenkantB.jpg")}}">
+                </div>
+                <div class="box">
+                    <h1>Appartement B</h1>
+                    <h2>Binnenkant</h2>
+                </div>
+            </div>
         </div>
         <div class="slide" id="slide5">
-            <h1>Appartement B</h1>
-            <h2>Keuken</h2>
+            <div class="wrap">
+                <div class="imgsContainer">
+                    <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement B.2/KeukenB.jpg")}}">
+                </div>
+                <div class="box">
+                    <h1>Appartement B</h1>
+                    <h2>Keuken</h2>
+                </div>
+            </div>
         </div>
         <div class="slide" id="slide6">
-            <h1>Appartement B</h1>
-            <h2>Uitzicht</h2>
+            <<div class="wrap">
+                <div class="imgsContainer">
+                    <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement B.2/UitzichtB.jpg")}}">
+                </div>
+                <div class="box">
+                    <h1>Appartement B</h1>
+                    <h2>Uitzicht</h2>
+                </div>
+            </div>>
         </div>
     </div>
     <div class="section" id="section3">
         <div class="slide" id="slide7">
-            <h1>Appartement C</h1>
-            <h2>Binnenkant</h2>
+            <div class="imgsContainer">
+                <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement C.2/BinnenkantC.jpg")}}">
+            </div>
+            <div class="box">
+                <h1>Appartement C</h1>
+                <h2>Binnenkant</h2>
+            </div>
         </div>
         <div class="slide" id="slide8">
-            <h1>Appartement C</h1>
-            <h2>Keuken</h2>
+            <<div class="imgsContainer">
+                <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement C.2/KeukenC.jpg")}}">
+            </div>
+            <div class="box">
+                <h1>Appartement C</h1>
+                <h2>Keuken</h2>
+            </div>
         </div>
         <div class="slide" id="slide9">
-            <h1>Appartement C</h1>
-            <h2>Uitzicht</h2>
+            <<div class="imgsContainer">
+                <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement C.2/UitzichtC.jpg")}}">
+            </div>
+            <div class="box">
+                <h1>Appartement C</h1>
+                <h2>Uitzicht</h2>
+            </div>
         </div>
     </div>
     <div class="section" id="section4">
