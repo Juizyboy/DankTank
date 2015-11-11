@@ -2,13 +2,13 @@
 @section('main')
 <section class="content-header">
     <h1>
-        Klant aanmaken
-        <small>Maak hier een nieuwe klant aan</small>
+        Appartement aanmaken
+        <small>Maak hier een nieuw appartement</small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{url('/')}}"><i class="fa fa-dashboard"></i>Home</a></li>
-        <li><a href="{{action('AdminController@index')}}"><i class="fa fa-user"></i>Gebruiker</a></li>
-        <li class="active">Klant aanmaken</li>
+        <li><a href="{{action('AdminController@index')}}"><i class="fa fa-user"></i>Appartement</a></li>
+        <li class="active">Appartement aanmaken</li>
     </ol>
 </section>
 
