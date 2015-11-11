@@ -24,6 +24,11 @@ class User extends Model implements AuthenticatableContract,
     protected $table = 'users';
 
     /**
+     * We dont't want to use created_at and updated_at
+     */
+    public $timestamps = false;
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array
