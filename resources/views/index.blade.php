@@ -28,6 +28,15 @@
             color: #f2f2f2;
             font-family: arial,helvetica;
         }
+        ul{
+            list-style: circle;
+            color: #f2f2f2;
+            padding-left: 20px;
+        }
+        p{
+            color: #f2f2f2;
+            font-size: 1em;
+        }
 
         /* Centered texts in each section
         * --------------------------------------- */
@@ -182,17 +191,17 @@
                     <h2>Binnenkant</h2>
                     <p>Appartement A is voor 2-4 personen. Prijzen vanaf  € 325 tot € 675
                         Het is iets dieper dan de straat gelegen, met een groot terras.
-                        </p>
-                        <ul>
-                            <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
-                            <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
-                        	<li>Slaapkamer met 2 eenpersoonbedden</li>
-                        	<li>Keuken met vaatwasser, magnetron, koffiezetapparaat, waterkoker</li>
-                        	<li>Badkamer met douche en wastafel</li>
-                            <li>Apart toilet</li>
-                            <li>Verder aanwezig: Tuinset, kinderbed, kinderstoel, safe</li>
-                            <li>Prive parkeerplaats</li>
-                        </ul>
+                    </p>
+                    <ul>
+                        <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        <li>Slaapkamer met 2 eenpersoonbedden</li>
+                        <li>Keuken met vaatwasser, magnetron, koffiezetapparaat, waterkoker</li>
+                        <li>Badkamer met douche en wastafel</li>
+                        <li>Apart toilet</li>
+                        <li>Verder aanwezig: Tuinset, kinderbed, kinderstoel, safe</li>
+                        <li>Prive parkeerplaats</li>
+                    </ul>
                 </div>
             </div>
 
@@ -205,6 +214,19 @@
                 <div class="box">
                     <h1>Appartement A</h1>
                     <h2>Keuken</h2>
+                    <p>Appartement A is voor 2-4 personen. Prijzen vanaf  € 325 tot € 675
+                        Het is iets dieper dan de straat gelegen, met een groot terras.
+                    </p>
+                    <ul>
+                        <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        <li>Slaapkamer met 2 eenpersoonbedden</li>
+                        <li>Keuken met vaatwasser, magnetron, koffiezetapparaat, waterkoker</li>
+                        <li>Badkamer met douche en wastafel</li>
+                        <li>Apart toilet</li>
+                        <li>Verder aanwezig: Tuinset, kinderbed, kinderstoel, safe</li>
+                        <li>Prive parkeerplaats</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -216,6 +238,19 @@
                 <div class="box">
                     <h1>Appartement A</h1>
                     <h2>Uitzicht</h2>
+                    <p>Appartement A is voor 2-4 personen. Prijzen vanaf  € 325 tot € 675
+                        Het is iets dieper dan de straat gelegen, met een groot terras.
+                    </p>
+                    <ul>
+                        <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        <li>Woonkamer/serre met 2-persoons slaapbank, LCD Tv en Dvd speler</li>
+                        <li>Slaapkamer met 2 eenpersoonbedden</li>
+                        <li>Keuken met vaatwasser, magnetron, koffiezetapparaat, waterkoker</li>
+                        <li>Badkamer met douche en wastafel</li>
+                        <li>Apart toilet</li>
+                        <li>Verder aanwezig: Tuinset, kinderbed, kinderstoel, safe</li>
+                        <li>Prive parkeerplaats</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -229,6 +264,22 @@
                 <div class="box">
                     <h1>Appartement B</h1>
                     <h2>Binnenkant</h2>
+                    <p>
+                        Appartement B is voor 4 personen. Prijs van € 350 tot € 797
+                        Het appartement ligt op de begane grond en heeft aan de achterkant van het huis een balkon.
+                    </p>
+                        <ul>
+                        <li>Woonkamer met serre.</li>
+                        <li>Grote slaapkamer met 2-persoonsbed 1.80 x 2.00.</li>
+                        <li>Kleine slaapkamer met 2 éénpersoonbedden 80 x 1.90.</li>
+                        <li>Badkamer met douche, wastafel, toilet.</li>
+                        <li>Keuken met vaatwasser, magnetron, koffiezetapparaat en waterkoker.</li>
+                        <li>Balkon met tuinset</li>
+                        <li>Kinderbedje,Kinderstoel,safe</li>
+                        <li>Prive Parkeerplaats</li>
+                    </ul>
+
+
                 </div>
             </div>
         </div>
@@ -240,6 +291,20 @@
                 <div class="box">
                     <h1>Appartement B</h1>
                     <h2>Keuken</h2>
+                    <p>
+                        Appartement B is voor 4 personen. Prijs van € 350 tot € 797
+                        Het appartement ligt op de begane grond en heeft aan de achterkant van het huis een balkon.
+                    </p>
+                    <ul>
+                        <li>Woonkamer met serre.</li>
+                        <li>Grote slaapkamer met 2-persoonsbed 1.80 x 2.00.</li>
+                        <li>Kleine slaapkamer met 2 éénpersoonbedden 80 x 1.90.</li>
+                        <li>Badkamer met douche, wastafel, toilet.</li>
+                        <li>Keuken met vaatwasser, magnetron, koffiezetapparaat en waterkoker.</li>
+                        <li>Balkon met tuinset</li>
+                        <li>Kinderbedje,Kinderstoel,safe</li>
+                        <li>Prive Parkeerplaats</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -251,6 +316,20 @@
                 <div class="box">
                     <h1>Appartement B</h1>
                     <h2>Uitzicht</h2>
+                    <p>
+                        Appartement B is voor 4 personen. Prijs van € 350 tot € 797
+                        Het appartement ligt op de begane grond en heeft aan de achterkant van het huis een balkon.
+                    </p>
+                    <ul>
+                        <li>Woonkamer met serre.</li>
+                        <li>Grote slaapkamer met 2-persoonsbed 1.80 x 2.00.</li>
+                        <li>Kleine slaapkamer met 2 éénpersoonbedden 80 x 1.90.</li>
+                        <li>Badkamer met douche, wastafel, toilet.</li>
+                        <li>Keuken met vaatwasser, magnetron, koffiezetapparaat en waterkoker.</li>
+                        <li>Balkon met tuinset</li>
+                        <li>Kinderbedje,Kinderstoel,safe</li>
+                        <li>Prive Parkeerplaats</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -264,6 +343,20 @@
             <div class="box">
                 <h1>Appartement C</h1>
                 <h2>Binnenkant</h2>
+                <p>Appartement C is voor 6 personen. Prijs van € 450 tot € 995
+                Dit appartement met zeezicht ligt op de 1e en 2e verdieping en heeft een groot balkon.</p>
+                <ul>
+                1e verdieping
+                <li>	Woonkamer/keuken.</li>
+                <li>	2 slaapkamers met 1-persoonsbedden 90 x 2.00 en wastafel.</li>
+                <li>	Badkamer met douche en wastafel. Apart toilet.</li>
+                <li>	Balkon.</li>
+                2e verdieping
+                <li>	1 slaapkamer</li>
+                Verder aanwezig:
+                <li>	Tuinset, kinderbed, kinderstoel, safe,dvd speler</li>
+                <li>	Prive Parkeerplaats</li>
+                </ul>
             </div>
             </div>
         </div>
@@ -275,6 +368,20 @@
             <div class="box">
                 <h1>Appartement C</h1>
                 <h2>Keuken</h2>
+                <p>Appartement C is voor 6 personen. Prijs van € 450 tot € 995
+                    Dit appartement met zeezicht ligt op de 1e en 2e verdieping en heeft een groot balkon.</p>
+                <ul>
+                    1e verdieping
+                    <li>	Woonkamer/keuken.</li>
+                    <li>	2 slaapkamers met 1-persoonsbedden 90 x 2.00 en wastafel.</li>
+                    <li>	Badkamer met douche en wastafel. Apart toilet.</li>
+                    <li>	Balkon.</li>
+                    2e verdieping
+                    <li>	1 slaapkamer</li>
+                    Verder aanwezig:
+                    <li>	Tuinset, kinderbed, kinderstoel, safe,dvd speler</li>
+                    <li>	Prive Parkeerplaats</li>
+                </ul>
             </div>
             </div>
         </div>
@@ -286,12 +393,27 @@
             <div class="box">
                 <h1>Appartement C</h1>
                 <h2>Uitzicht</h2>
+                <p>Appartement C is voor 6 personen. Prijs van € 450 tot € 995
+                    Dit appartement met zeezicht ligt op de 1e en 2e verdieping en heeft een groot balkon.</p>
+                <ul>
+                    1e verdieping
+                    <li>	Woonkamer/keuken.</li>
+                    <li>	2 slaapkamers met 1-persoonsbedden 90 x 2.00 en wastafel.</li>
+                    <li>	Badkamer met douche en wastafel. Apart toilet.</li>
+                    <li>	Balkon.</li>
+                    2e verdieping
+                    <li>	1 slaapkamer</li>
+                    Verder aanwezig:
+                    <li>	Tuinset, kinderbed, kinderstoel, safe,dvd speler</li>
+                    <li>	Prive Parkeerplaats</li>
+                </ul>
             </div>
             </div>
         </div>
     </div>
     <div class="section" id="section4">
         <h1>Reserveer nu!</h1>
+
     </div>
     <div class="section" id="section5">
         <h1>Contact</h1>
