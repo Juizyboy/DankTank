@@ -106,11 +106,19 @@
 <div id="fullpage">
     <div class="section " id="section0"><h1>De Zilte Kust</h1></div>
     <div class="section" id="section1">
-        <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
+        <div class="slide" id="slide1"><h1>Appartement A</h1></div>
         <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
     </div>
-    <div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
-    <div class="section" id="section3"><h1>One Image = One thousand words</h1></div>
+    <div class="section" id="section2">
+        <div class="slide" id="slide1"><h1>Appartement B</h1></div>
+        <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+    </div>
+    <div class="section" id="section3">
+        <div class="slide" id="slide1"><h1>Appartement C</h1></div>
+        <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+    </div>
+    <div class="section" id="section4"><h1>Lovely images <br />for a lovely page</h1></div>
+    <div class="section" id="section5"><h1>One Image = One thousand words</h1></div>
 </div>
 
 </body>
