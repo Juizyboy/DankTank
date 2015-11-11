@@ -11,15 +11,13 @@
         <a href="{{url('/')}}" class="logo">
 
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>H</b></span>
+            <span class="logo-mini"><b>B</b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Hallux</b></span>
+            <span class="logo-lg"><b>Boeking</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         @include('baseContentBooking.headnav')
     </header>
-    <!-- Left side column. contains the logo and sidebar -->
-    @include('baseContentBooking.nav')
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">

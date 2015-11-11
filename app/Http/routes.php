@@ -13,14 +13,22 @@
 
 Route::get('/', 'MainController@index');
 
+// Login routes...
+Route::get('auth/login', 'LoginController@loginIndex');
+Route::post('auth/login', 'LoginController@loginProcess');
+
+// Logout route...
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+
 Route::group(['prefix' => 'booking'], function () {
     Route::get('/', 'BookingController@index');
     Route::post('/addReservation', 'BookingController@addReservation');
     Route::group(['prefix' => 'admin'], function () {
-        Route::get('/', 'AdminController@index');
-        Route::get('/newApartment', 'AdminController@newApartment');
-        Route::post('/createApartment', 'AdminController@createApartment');
-        Route::post('/destroyApartment', 'AdminController@destroyApartment');
-
+        Route::group(['middleware' => 'auth'], function () {
+            Route::get('/', 'AdminController@index');
+            Route::get('/newApartment', 'AdminController@newApartment');
+            Route::post('/createApartment', 'AdminController@createApartment');
+            Route::post('/destroyApartment', 'AdminController@destroyApartment');
+        });
     });
 });

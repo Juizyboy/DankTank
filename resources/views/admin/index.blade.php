@@ -2,12 +2,12 @@
 @section('main')
 <section class="content-header">
     <h1>
-        Gebruikers
-        <small>Overzicht van gebruikers</small>
+        Adminpanel
+        <small>Adminpanel</small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{url('/')}}"><i class="fa fa-dashboard"></i>Home</a></li>
-        <li class="active">Gebruikers</li>
+        <li class="active">Admin</li>
     </ol>
 </section>
 
@@ -23,50 +23,14 @@
                         <ul class="nav nav-tabs pull-right">
                             <li id="usertabsheader" class="pull-left header"></li>
                             <li><a href="#apartments" data-toggle="tab">Appartementen</a></li>
-                            <li><a href="#resellers" data-toggle="tab">Resellers</a></li>
-                            <li class="active"><a href="#customers" data-toggle="tab">Klanten</a></li>
+                            <li class="active"><a href="#bookings" data-toggle="tab">Boekingen</a></li>
 
                         </ul>
                         <div class="tab-content">
 
-                            <div class="tab-pane active" id="customers">
-                                <table class="table table-striped table-hover" cellspacing="0">
-                                    <thead>
-                                    <tr>
-                                        <th>E-mailadres</th>
-                                        <th>Rol</th>
-                                        <th>Geactiveerd?</th>
-                                        <th>Datum aangemaakt</th>
-                                        <th></th>
-                                        <th></th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                            <tr>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td>
-                                                    <form action="" method="GET">
-                                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                                        <button type="submit" class="btn btn-primary btn-xs">Bewerken</button>
-                                                    </form>
-                                                </td>
-                                                <td>
 
-                                                    <form method="POST" action="">
-                                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                                        <button type="submit" class="btn btn-danger btn-xs">Verwijderen</button>
-                                                    </form>
-                                                </td>
-                                            </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.tab-pane -->
 
-                            <div class="tab-pane" id="resellers">
+                            <div class="tab-pane" id="bookings">
                                 <table class="table table-striped table-hover" cellspacing="0">
                                     <thead>
                                     <tr>
@@ -97,7 +61,6 @@
                                                 <td>{{$booking->amountOfGuests}}</td>
                                                 <td>{{$booking->amountOfChildren}}</td>
                                                 <td>{{$booking->apartmentName}}</td>
-                                                <td>{{$booking->comment}}</td>
                                             </tr>
                                     @endforeach
                                     </tbody>
@@ -127,7 +90,7 @@
                                                     <form method="POST" action="{{action("AdminController@destroyApartment")}}">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                         <input type="hidden" name="id" value="{{$apartment->id}}">
-                                                        <button type="submit" class="btn btn-danger btn-xs">Verwijderen</button>
+                                                        <button type="submit" class="btn btn-danger">Verwijderen</button>
                                                     </form>
                                                 </td>
                                             </tr>
