@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'MainController@index');
+
+Route::group(['prefix' => 'booking'], function () {
+    Route::get('/','BookingController@index');
+});
