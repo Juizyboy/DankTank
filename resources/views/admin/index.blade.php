@@ -102,7 +102,7 @@
                                 </table>
                             </div>
 
-                            <div class="tab-pane" id="appartments">
+                            <div class="tab-pane" id="apartments">
                                 <table class="table table-striped table-hover" cellspacing="0">
                                     <thead>
                                     <tr>
@@ -113,8 +113,6 @@
                                     </thead>
                                     <tbody>
                                             <tr>
-                                                <td></td>
-                                                <td></td>
                                                 <td></td>
                                                 <td></td>
                                                 <td>
