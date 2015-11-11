@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Apartment;
+use App\Booking;
 use App\User;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
@@ -14,7 +15,11 @@ class AdminController extends Controller
 {
     public function index() {
         $apartments = Apartment::all();
-        return view('admin.index', compact('apartments'));
+        $bookings = Booking::all();
+        foreach($bookings as $booking) {
+            $booking->apartmentName = Apartment::find($booking->apartment_id)->name;
+        }
+        return view('admin.index', compact('apartments', 'bookings'));
     }
 
     public function newApartment() {

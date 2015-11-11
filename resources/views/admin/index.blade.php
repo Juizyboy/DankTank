@@ -70,34 +70,36 @@
                                 <table class="table table-striped table-hover" cellspacing="0">
                                     <thead>
                                     <tr>
+                                        <th>Naam</th>
+                                        <th>Adres</th>
+                                        <th>Postcode</th>
+                                        <th>Stad</th>
                                         <th>E-mailadres</th>
-                                        <th>Rol</th>
-                                        <th>Geactiveerd?</th>
-                                        <th>Datum aangemaakt</th>
-                                        <th></th>
-                                        <th></th>
+                                        <th>Telefoonnummer</th>
+                                        <th>Aankomstdatum</th>
+                                        <th>Vertrekdatum</th>
+                                        <th>Aantal gasten</th>
+                                        <th>Aantal kinderen</th>
+                                        <th>Apartement</th>
                                     </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach($bookings as $booking)
                                             <tr>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td>
-                                                    <form action="" method="GET">
-                                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                                        <button type="submit" class="btn btn-primary btn-xs">Bewerken</button>
-                                                    </form>
-                                                </td>
-                                                <td>
-
-                                                    <form method="POST" action="">
-                                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                                        <button type="submit" class="btn btn-danger btn-xs">Verwijderen</button>
-                                                    </form>
-                                                </td>
+                                                <td>{{$booking->name}}</td>
+                                                <td>{{$booking->address}}</td>
+                                                <td>{{$booking->postalCode}}</td>
+                                                <td>{{$booking->city}}</td>
+                                                <td>{{$booking->email}}</td>
+                                                <td>{{$booking->phone}}</td>
+                                                <td>{{$booking->arrivalDate}}</td>
+                                                <td>{{$booking->leavingDate}}</td>
+                                                <td>{{$booking->amountOfGuests}}</td>
+                                                <td>{{$booking->amountOfChildren}}</td>
+                                                <td>{{$booking->apartmentName}}</td>
+                                                <td>{{$booking->comment}}</td>
                                             </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -108,12 +110,11 @@
                                     <tr>
                                         <th>Naam</th>
                                         <th></th>
-                                        <th></th>
                                     </tr>
                                     </thead>
                                     <tbody>
+                                        @foreach($apartments as $apartment)
                                             <tr>
-                                                @foreach($apartments as $apartment)
                                                 <td>{{$apartment->name}}</td>
                                                 <!--<td>
                                                     <form action="" method="GET">
@@ -129,8 +130,8 @@
                                                         <button type="submit" class="btn btn-danger btn-xs">Verwijderen</button>
                                                     </form>
                                                 </td>
-                                                @endforeach
                                             </tr>
+                                            @endforeach
                                     </tbody>
                                 </table>
                                 <a href="{{action("AdminController@newApartment")}}" class="btn btn-success">Nieuw appartement</a>
