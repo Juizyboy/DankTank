@@ -44,15 +44,15 @@
         /* Defining each sectino background and styles
         * --------------------------------------- */
         #section0{
-            background-image: url(imgs/bg1.jpg);
+            background-image: url({{url("plugins/fullpage/imgs/bg1.jpg")}});
             padding: 30% 0 0 0;
         }
         #section2{
-            background-image: url(imgs/bg3.jpg);
+            background-image: url({{url("plugins/fullpage/imgs/bg3.jpg")}});
             padding: 6% 0 0 0;
         }
         #section3{
-            background-image: url(imgs/bg4.jpg);
+            background-image: url({{url("plugins/fullpage/imgs/bg4.jpg")}});
             padding: 6% 0 0 0;
         }
         #section3 h1{
@@ -63,11 +63,11 @@
         /*Adding background for the slides
        * --------------------------------------- */
         #slide1{
-            background-image: url(imgs/bg2.jpg);
+            background-image: url({{url("plugins/fullpage/imgs/bg2.jpg")}});
             padding: 6% 0 0 0;
         }
         #slide2{
-            background-image: url(imgs/bg5.jpg);
+            background-image: url({{url("plugins/fullpage/imgs/bg5.jpg")}});
             padding: 6% 0 0 0;
         }
 
@@ -88,9 +88,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-    <script type="text/javascript" src="../jquery.fullPage.js"></script>
-    <script type="text/javascript" src="examples.js"></script>
-
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
@@ -108,8 +105,6 @@
 <a href="https://github.com/alvarotrigo/fullPage.js" id="githubLink"><img style="position: fixed;z-index:99; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alvarotrigo.com/fullPage/" data-text="Great plugin to create fullscreen scrolling websites: http://alvarotrigo.com/fullPage/">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
 
 <div id="fullpage">
     <div class="section " id="section0"><h1>fullPage.js</h1></div>
