@@ -115,16 +115,15 @@
                                             <tr>
                                                 @foreach($apartments as $apartment)
                                                 <td>{{$apartment->name}}</td>
-                                                <td>
-                                                    <form action="" method="GET">
+                                                <!--<td>
+                                                    <form action="{{action("AdminController@editApartment")}}" method="GET">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                         <input type="hidden" name="id" value="{{$apartment->id}}">
                                                         <button type="submit" class="btn btn-primary btn-xs">Bewerken</button>
                                                     </form>
-                                                </td>
+                                                </td>-->
                                                 <td>
-
-                                                    <form method="POST" action="">
+                                                    <form method="POST" action="{{action("AdminController@destroyApartment")}}">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                         <input type="hidden" name="id" value="{{$apartment->id}}">
                                                         <button type="submit" class="btn btn-danger btn-xs">Verwijderen</button>
@@ -134,6 +133,7 @@
                                             </tr>
                                     </tbody>
                                 </table>
+                                <a href="{{action("AdminController@newApartment")}}" class="btn btn-"</a>
                             </div>
 
                             <!-- /.tab-pane -->

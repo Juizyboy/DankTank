@@ -16,4 +16,11 @@ class AdminController extends Controller
         $apartments = Apartment::all();
         return view('admin.index', compact('apartments'));
     }
+
+    public function destroyApartment() {
+        $input = Input::all();
+        Apartment::destroy($input['id']);
+        return Redirect::to('booking/admin');
+    }
+
 }

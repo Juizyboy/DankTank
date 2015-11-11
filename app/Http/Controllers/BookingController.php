@@ -14,6 +14,6 @@ class BookingController extends Controller
 {
     public function index() {
         $apartments = Apartment::all();
-        return view('admin.index', compact('apartments'));
+        return view('booking.index', compact('apartments'));
     }
 }

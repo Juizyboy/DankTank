@@ -17,5 +17,6 @@ Route::group(['prefix' => 'booking'], function () {
     Route::get('/', 'BookingController@index');
     Route::group(['prefix' => 'admin'], function () {
         Route::get('/', 'AdminController@index');
+        Route::get('/destroyApartment', 'AdminController@destroyApartment');
     });
 });
