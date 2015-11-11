@@ -31,6 +31,6 @@
 
 </div><!-- ./wrapper -->
 
-@include('baseContent.scripts')
+@include('baseContentBooking.scripts')
 </body>
 </html>

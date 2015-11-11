@@ -14,5 +14,8 @@
 Route::get('/', 'MainController@index');
 
 Route::group(['prefix' => 'booking'], function () {
-    Route::get('/','BookingController@index');
+    Route::get('/', 'BookingController@index');
+    Route::group(['prefix' => 'admin'], function () {
+        Route::get('/', 'AdminController@index');
+    });
 });
