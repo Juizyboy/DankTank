@@ -103,12 +103,8 @@
 </head>
 <body>
 
-<a href="https://github.com/alvarotrigo/fullPage.js" id="githubLink"><img style="position: fixed;z-index:99; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alvarotrigo.com/fullPage/" data-text="Great plugin to create fullscreen scrolling websites: http://alvarotrigo.com/fullPage/">Tweet</a>
-
 <div id="fullpage">
-    <div class="section " id="section0"><h1>fullPage.js</h1></div>
+    <div class="section " id="section0"><h1>De Zilte Kust</h1></div>
     <div class="section" id="section1">
         <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
         <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
