@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Apartment;
 use App\User;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
@@ -12,6 +13,33 @@ use App\Http\Controllers\Controller;
 class AdminController extends Controller
 {
     public function index() {
-        return view('admin.index');
+        $apartments = Apartment::all();
+        return view('admin.index', compact('apartments'));
     }
+
+    public function newApartment() {
+        return view('admin.newApartment');
+    }
+
+    public function createApartment() {
+        $input = Input::all();
+        $inputApartment['name'] = $input['name'];
+        $validator = Validator::make($inputApartment, Apartment::$rules);
+        if ($validator->passes())
+        {
+            Apartment::create($inputApartment);
+            return Redirect::to('/booking/admin/');
+        }
+        else {
+            return Redirect::to('/booking/admin/newApartment')
+                ->withErrors($validator);
+        }
+    }
+
+    public function destroyApartment() {
+        $input = Input::all();
+        Apartment::destroy($input['id']);
+        return Redirect::to('booking/admin');
+    }
+
 }

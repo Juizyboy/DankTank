@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Apartment;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Redirect;
@@ -12,6 +13,7 @@ use App\Http\Controllers\Controller;
 class BookingController extends Controller
 {
     public function index() {
-        return view('booking.index');
+        $apartments = Apartment::all();
+        return view('booking.index', compact('apartments'));
     }
 }
