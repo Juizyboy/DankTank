@@ -22,6 +22,11 @@
             margin:0;
             padding:0;
         }
+        h2{
+            font-size: 2em;
+            margin: 0 0 18px 0;
+            font-family: arial,helvetica;
+        }
 
         /* Centered texts in each section
         * --------------------------------------- */
@@ -44,7 +49,7 @@
         * --------------------------------------- */
         #section0{
             background-image: url({{url("plugins/fullpage/imgs/bg1.jpg")}});
-            padding: 30% 0 0 0;
+            padding: 7.5% 0 0 0;
         }
         #section2{
             background-image: url({{url("plugins/fullpage/imgs/bg2.jpg")}});
@@ -79,11 +84,22 @@
         }
 
 
-        /* Bottom menu
-        * --------------------------------------- */
-        #infoMenu li a {
-            color: #fff;
+        #header{
+            position:fixed;
+            height: 50px;
+            display:block;
+            width: 100%;
+            background: #333;
+            z-index:9;
+            text-align:center;
+            color: #f2f2f2;
+            padding: 20px 0 0 0;
         }
+
+        #header{
+            top:0px;
+        }
+
     </style>
 
     <!--[if IE]>
@@ -110,26 +126,63 @@
 
 </head>
 <body>
-
+<div id="header">Header</div>
 <div id="fullpage">
-    <div class="section " id="section0">
+    <div class="section" id="section0">
         <h1>De Zilte Kust</h1>
+        <p>De Appartementen ‘De Zilte Kust’ bevinden zich op een prachtige locatie: in de Vlissingense Duinen op 50 meter van het strand. Het appartementenhuis bestaat uit 3 appartementen.
+            De ligging is tevens ideaal omdat de appartementen maar 100 meter van het gezellige centrum van Vlissingen liggen. Appartementenhuis "‘De Zilte Kust’" bestaat uit de appartementen A, B en C.
+        </p>
     </div>
 
     <div class="section" id="section1">
-        <div class="slide" id="slide1"><h1>Appartement A</h1></div>
-        <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+        <div class="slide" id="slide1">
+            <h1>Appartement A</h1>
+            <h2>Binnenkant</h2>
+        </div>
+        <div class="slide" id="slide2">
+            <h1>Appartement A</h1>
+            <h2>Keuken</h2>
+        </div>
+        <div class="slide" id="slide3">
+            <h1>Appartement A</h1>
+            <h2>Uitzicht</h2>
+        </div>
     </div>
     <div class="section" id="section2">
-        <div class="slide" id="slide3"><h1>Appartement B</h1></div>
-        <div class="slide" id="slide4"><h1>Totally customizable</h1></div>
+        <div class="slide" id="slide4">
+            <h1>Appartement B</h1>
+            <h2>Binnenkant</h2>
+        </div>
+        <div class="slide" id="slide5">
+            <h1>Appartement B</h1>
+            <h2>Keuken</h2>
+        </div>
+        <div class="slide" id="slide6">
+            <h1>Appartement B</h1>
+            <h2>Uitzicht</h2>
+        </div>
     </div>
     <div class="section" id="section3">
-        <div class="slide" id="slide5"><h1>Appartement C</h1></div>
-        <div class="slide" id="slide6"><h1>Totally customizable</h1></div>
+        <div class="slide" id="slide7">
+            <h1>Appartement C</h1>
+            <h2>Binnenkant</h2>
+        </div>
+        <div class="slide" id="slide8">
+            <h1>Appartement C</h1>
+            <h2>Keuken</h2>
+        </div>
+        <div class="slide" id="slide9">
+            <h1>Appartement C</h1>
+            <h2>Uitzicht</h2>
+        </div>
     </div>
-    <div class="section" id="section4"><h1>Lovely images <br />for a lovely page</h1></div>
-    <div class="section" id="section5"><h1>One Image = One thousand words</h1></div>
+    <div class="section" id="section4">
+        <h1>Reserveer nu!</h1>
+    </div>
+    <div class="section" id="section5">
+        <h1>Contact</h1>
+    </div>
 </div>
 
 </body>
