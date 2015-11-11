@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Apartment;
 use App\User;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
@@ -12,6 +13,7 @@ use App\Http\Controllers\Controller;
 class AdminController extends Controller
 {
     public function index() {
-        return view('admin.index');
+        $apartments = Apartment::all();
+        return view('admin.index', compact('apartments'));
     }
 }

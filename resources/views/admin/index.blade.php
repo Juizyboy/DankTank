@@ -113,11 +113,12 @@
                                     </thead>
                                     <tbody>
                                             <tr>
-                                                <td></td>
-                                                <td></td>
+                                                @foreach($apartments as $apartment)
+                                                <td>{{$apartment->name}}</td>
                                                 <td>
                                                     <form action="" method="GET">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                        <input type="hidden" name="id" value="{{$apartment->id}}">
                                                         <button type="submit" class="btn btn-primary btn-xs">Bewerken</button>
                                                     </form>
                                                 </td>
@@ -125,9 +126,11 @@
 
                                                     <form method="POST" action="">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                        <input type="hidden" name="id" value="{{$apartment->id}}">
                                                         <button type="submit" class="btn btn-danger btn-xs">Verwijderen</button>
                                                     </form>
                                                 </td>
+                                                @endforeach
                                             </tr>
                                     </tbody>
                                 </table>
