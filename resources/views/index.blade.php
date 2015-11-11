@@ -231,7 +231,7 @@
             </div>
         </div>
         <div class="slide" id="slide6">
-            <<div class="wrap">
+            <div class="wrap">
                 <div class="imgsContainer">
                     <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement B.2/UitzichtB.jpg")}}">
                 </div>
@@ -239,11 +239,12 @@
                     <h1>Appartement B</h1>
                     <h2>Uitzicht</h2>
                 </div>
-            </div>>
+            </div>
         </div>
     </div>
     <div class="section" id="section3">
         <div class="slide" id="slide7">
+            <div class="wrap">
             <div class="imgsContainer">
                 <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement C.2/BinnenkantC.jpg")}}">
             </div>
@@ -251,23 +252,28 @@
                 <h1>Appartement C</h1>
                 <h2>Binnenkant</h2>
             </div>
+            </div>
         </div>
         <div class="slide" id="slide8">
-            <<div class="imgsContainer">
+            <div class="wrap">
+            <div class="imgsContainer">
                 <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement C.2/KeukenC.jpg")}}">
             </div>
             <div class="box">
                 <h1>Appartement C</h1>
                 <h2>Keuken</h2>
             </div>
+            </div>
         </div>
         <div class="slide" id="slide9">
-            <<div class="imgsContainer">
+            <div class="wrap">
+            <div class="imgsContainer">
                 <img style="max-width: 90%;" src="{{url("plugins/fullpage/imgs2/Appartement C.2/UitzichtC.jpg")}}">
             </div>
             <div class="box">
                 <h1>Appartement C</h1>
                 <h2>Uitzicht</h2>
+            </div>
             </div>
         </div>
     </div>
