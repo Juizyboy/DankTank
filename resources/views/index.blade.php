@@ -10,8 +10,7 @@
     <meta name="Resource-type" content="Document" />
     <link href="{{url("plugins/fullpage/jquery.fullpage.min.css")}}" rel="stylesheet" type="text/css" />
     <link href="{{url("plugins/fullpage/examples.css")}}" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="{{url("plugins/fullpage/jquery.fullpage.min.js")}}"></script>
-    <script type="text/javascript" src="{{url("plugins/fullpage/examples.js")}}"></script>
+
     <style>
 
         /* Style for our header texts
@@ -87,6 +86,8 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{url("plugins/fullpage/jquery.fullpage.min.js")}}"></script>
+    <script type="text/javascript" src="{{url("plugins/fullpage/examples.js")}}"></script>
 
     <script type="text/javascript">
         $(document).ready(function() {
