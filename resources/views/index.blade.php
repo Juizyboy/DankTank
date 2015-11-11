@@ -47,26 +47,34 @@
             padding: 30% 0 0 0;
         }
         #section2{
-            background-image: url({{url("plugins/fullpage/imgs/bg3.jpg")}});
+            background-image: url({{url("plugins/fullpage/imgs/bg2.jpg")}});
             padding: 6% 0 0 0;
         }
         #section3{
-            background-image: url({{url("plugins/fullpage/imgs/bg4.jpg")}});
+            background-image: url({{url("plugins/fullpage/imgs/bg3.jpg")}});
             padding: 6% 0 0 0;
         }
         #section3 h1{
             color: #000;
+        }
+        #section4{
+            background-image: url({{url("plugins/fullpage/imgs/bg4.jpg")}});
+            padding: 6% 0 0 0;
+        }
+        #section5{
+            background-image: url({{url("plugins/fullpage/imgs/bg5.jpg")}});
+            padding: 6% 0 0 0;
         }
 
 
         /*Adding background for the slides
        * --------------------------------------- */
         #slide1{
-            background-image: url({{url("plugins/fullpage/imgs/bg2.jpg")}});
+            background-image: url({{url("plugins/fullpage/imgs/bg4.jpg")}});
             padding: 6% 0 0 0;
         }
         #slide2{
-            background-image: url({{url("plugins/fullpage/imgs/bg5.jpg")}});
+            background-image: url({{url("plugins/fullpage/imgs/bg3.jpg")}});
             padding: 6% 0 0 0;
         }
 
@@ -104,18 +112,21 @@
 <body>
 
 <div id="fullpage">
-    <div class="section " id="section0"><h1>De Zilte Kust</h1></div>
+    <div class="section " id="section0">
+        <h1>De Zilte Kust</h1>
+    </div>
+
     <div class="section" id="section1">
         <div class="slide" id="slide1"><h1>Appartement A</h1></div>
         <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
     </div>
     <div class="section" id="section2">
-        <div class="slide" id="slide1"><h1>Appartement B</h1></div>
-        <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+        <div class="slide" id="slide3"><h1>Appartement B</h1></div>
+        <div class="slide" id="slide4"><h1>Totally customizable</h1></div>
     </div>
     <div class="section" id="section3">
-        <div class="slide" id="slide1"><h1>Appartement C</h1></div>
-        <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+        <div class="slide" id="slide5"><h1>Appartement C</h1></div>
+        <div class="slide" id="slide6"><h1>Totally customizable</h1></div>
     </div>
     <div class="section" id="section4"><h1>Lovely images <br />for a lovely page</h1></div>
     <div class="section" id="section5"><h1>One Image = One thousand words</h1></div>
