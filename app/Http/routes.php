@@ -15,6 +15,7 @@ Route::get('/', 'MainController@index');
 
 Route::group(['prefix' => 'booking'], function () {
     Route::get('/', 'BookingController@index');
+    Route::post('/addReservation', 'BookingController@addReservation');
     Route::group(['prefix' => 'admin'], function () {
         Route::get('/', 'AdminController@index');
         Route::get('/newApartment', 'AdminController@newApartment');
